@@ -22,6 +22,7 @@ NHANES_data/**
 
 # Repositorio
 ETL-CDMBuilder/**
+ETL-CDMBuilder
 ScanReport.xlsx
 
 # Bundles de vocabularios de Athena (varios GB, no van en git)
