@@ -1,0 +1,14 @@
+variable_name,condition_concept_id,description
+MCQ010,317009,Asthma
+MCQ160a,4291025,Arthritis
+MCQ160b,4023479,Congestive heart failure
+MCQ160c,317576,Coronary heart disease
+MCQ160d,321318,Angina
+MCQ160e,312327,Myocardial infarction
+MCQ160f,381316,Stroke
+MCQ160l,194984,Liver disease
+MCQ500,194984,Liver disease (variable alternativa por patron de salto de MCQ160l)
+MCQ160m,141253,Thyroid disorder
+MCQ160p,255573,COPD
+MCQ220,443392,Cancer
+MCQ550,196456,Gallstones

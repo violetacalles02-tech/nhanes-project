@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: raw # tables copied from source DB
+    schema: "{{ env_var('OMOP_BASE_SCHEMA') }}"
+    tables:
+      - name: diq_l
+      - name: mcq_l
+      - name: demo_l
+      - name: glu_l
+      - name: ghb_l
+      - name: hdl_l
+      - name: ins_l
+      - name: smq_l
+      - name: alq_l
+      - name: paq_l
+      - name: mcq_l
+      
+  - name: vocabularies
+    schema: "{{ env_var('OMOP_VOCAB_SCHEMA') }}"
+    tables:
+      - name: concept
+      - name: vocabulary
+      - name: domain
+      - name: concept_class
+      - name: concept_relationship
+      - name: relationship
+      - name: concept_synonym
+      - name: concept_ancestor
+      - name: source_to_concept_map
+      - name: drug_strength
+      
+  

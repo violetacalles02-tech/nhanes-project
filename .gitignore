@@ -1,0 +1,46 @@
+# Credenciales / configuracion local
+.env
+.env.template
+**/.env
+**/.env.template
+**/profiles.yml
+
+# dbt
+dbt-project/target/
+dbt-project/dbt_packages/
+dbt-project/logs/
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Datos crudos de NHANES (pesan mucho, no van en git)
+NHANES_data/**/*.xpt
+NHANES_data/**/*.XPT
+NHANES_data/**
+**/*.xpt
+**/*.XPT
+
+# Repositorio
+ETL-CDMBuilder/**
+ScanReport.xlsx
+
+# Bundles de vocabularios de Athena (varios GB, no van en git)
+**/vocab_download*/
+**/vocabularies_download*/
+**/CONCEPT.csv
+**/CONCEPT_RELATIONSHIP.csv
+**/CONCEPT_ANCESTOR.csv
+**/CONCEPT_SYNONYM.csv
+**/DRUG_STRENGTH.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Sistema / editor
+.DS_Store
+.vscode/
+*.swp

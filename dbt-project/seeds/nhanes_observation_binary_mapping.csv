@@ -1,0 +1,5 @@
+variable_name,observation_concept_id,description
+SMQ020,648645,Smoking status (usando SMQ020 - ever smoked 100 cigarettes)
+ALQ111,3027199,History of Alcohol use
+PAQ650,4266975,Physical exercise
+MCQ300C,4051114,Family history of diabetes mellitus
